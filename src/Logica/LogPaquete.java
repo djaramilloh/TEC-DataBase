@@ -31,7 +31,7 @@ public class LogPaquete {
     public static void RecuperarPaquetes(ArrayList<Paquete> ArrayPaquetes) 
             throws SQLException, ClassNotFoundException 
             {
-        Paquete objPaquete = new Paquete();
+         Paquete objPaquete = new Paquete();
         ResultSet rs = objDBPaquete.SelectPaquetes();
         while (rs.next()){ //recorrdio iterator para setear el paquete
                 objPaquete = new Paquete();
